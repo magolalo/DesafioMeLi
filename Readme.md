@@ -12,12 +12,12 @@ este término entre todos los .txt.
 Se decide generar dos rutas para esta API:
 
 Ruta-1 /<variable> --> busca la palabra en la base de datos y devuelve la ocurrencia de esta palabra en todos los documentos. En esta opción los documentos fueron pre-procesados y se cargó cada palabra y su frecuencia en la DB. En la URL se debe agregar el término a buscar. Ej: "computadora"
-    GET https://desafiomeli.herokuapp.com/computadora
-    RESPONSE: {  "cantidad": 9}
+<br>    GET https://desafiomeli.herokuapp.com/computadora
+<br>    RESPONSE: {  "cantidad": 9}
 
 Ruta-2 /archivos/<variable> --> procesa todos los arhivos buscando y contando la ocurrencia de la palabra. Devuelve el listado de archivos en los que aparece la palabra y la frecuencia en cada uno y la cantidad total de ocurrencias. Ej: "computadora"
-  GET https://desafiomeli.herokuapp.com/archivos/computadora
-  RESPONSE: {
+<br>  GET https://desafiomeli.herokuapp.com/archivos/computadora
+<br>  RESPONSE: {
               "archivos": [
                 {
                   "archivo": "30716-8.txt", 
