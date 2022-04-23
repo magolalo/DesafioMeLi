@@ -36,7 +36,7 @@ Ruta-2 /archivos/<variable> --> procesa todos los arhivos buscando y contando la
 
 ###ARQUITECTURA:
 
-<img src="esquema.png">
+<img src="esquema_v1.png">
 
 
 
