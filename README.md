@@ -1,1 +1,28 @@
-# DesafioMeLi
+<html>
+    <head>
+        <title>Desafio MeLi - API REST - Frecuencia Palabras</title>
+        <link href="pywin32.css" rel="stylesheet" type="text/css" media="all">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        
+        <div id="content">
+            
+<h1>Documentación e instrucciones de la app</h1>
+
+<p>This documentation is generated from the .chm file which is shipped with
+the PyWin32 extensions for Python. Apart from absolutely essential cleanups
+to make the HTML display properly, no changes have been made.</p>
+
+<p><b>Updated 2020-04-27</b>: Now includes documentation up to 227</p>
+
+<ul>
+<li> <a href="contents.html">Table of Contents</a> </li>
+<li> <a href="PyWin32.html">Front Page</a></li>
+<li> <a href="html/CHANGES.txt">Project ChangeLog</a> </li>
+<!-- li> <a href="changes.html">Added / Updated pages</a></li -->
+</ul>
+
+        </div>
+    </body>
+</html>
