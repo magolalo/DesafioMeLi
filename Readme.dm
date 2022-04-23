@@ -37,5 +37,4 @@ ARQUITECTURA:
 <img src="https://github.com/magolalo/DesafioMeLi/blob/main/arquitectura.png?raw=true" border="1px"/>
 
 
-</font>
 
