@@ -9,9 +9,11 @@ app=Flask(__name__)
 
 if not os.path.isfile('mini.db'): 
     crear_base()
-#else:
-#    print('La base aun no fue creada')
 
+@app.route("/", methods=["GET"])
+def index():
+    return "<h1>Hello Mendiolaza!</h1>"
+    
 @app.route("/<palabra>", methods=["GET"])
 def busquemos(palabra): 
     cantidad = ConsultoDatos(palabra)
