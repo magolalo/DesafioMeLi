@@ -11,8 +11,7 @@ este término entre todos los .txt.
 
 Se decide generar dos rutas para esta API:
 
-  Ruta-1 /<variable> --> busca la palabra en la base de datos y devuelve la ocurrencia de esta palabra en todos los documentos. 
-  En esta opción los documentos fueron pre-procesados y se cargó cada palabra y su frecuencia en la DB. En la URL se debe agregar
+Ruta-1 /<variable> --> busca la palabra en la base de datos y devuelve la ocurrencia de esta palabra en todos los documentos. En esta opción los documentos fueron pre-procesados y se cargó cada palabra y su frecuencia en la DB. En la URL se debe agregar
   el término a buscar. Ej: "computadora"
     GET https://desafiomeli.herokuapp.com/computadora
     RESPONSE: {  "cantidad": 9}
