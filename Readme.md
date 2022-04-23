@@ -36,7 +36,7 @@ Ruta-2 /archivos/<variable> --> procesa todos los arhivos buscando y contando la
 
 ###ARQUITECTURA:
 
-<img src="https://github.com/magolalo/DesafioMeLi/blob/main/arquitectura.png?raw=true" border="1px"/>
+<img src="arquitectura.png">
 
 
 
