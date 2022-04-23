@@ -14,7 +14,8 @@ if not os.path.isfile('mini.db'):
 #URL del proyecto
 @app.route("/", methods=["GET"])
 def index():
-    return readme   
+    inicio = ('<html><h2>Click <a href="https://github.com/magolalo/DesafioMeLi">aquí</a> para comenzar.</h2></html>')
+    return inicio
 
 #Ruta 1: Recibe el término que se desea cosultar como parte de la URL en <palabra> y
 #se dispara la búsqueda en la DB. Devuelve la cantidad de repeticiones del término. 
