@@ -33,7 +33,7 @@ Ruta-2 /archivos/<variable> --> procesa todos los arhivos buscando y contando la
 
 
 ARQUITECTURA:
-<img src="esquema_v2.png">
+<br><img src="esquema_v2.png">
 
 Todo el proyecto se desarrollo en python3.
 Para la API-REST se trabajó con el módulo FLASK, ver app.py, está todo comentado. 
