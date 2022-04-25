@@ -7,7 +7,7 @@ COPY . /app
 
 #Cargo los módulos de python que require la app
 COPY requirements.txt requirements.txt
-RUN pip install -r reqs.txt
+RUN pip install -r requirements.txt
 
 #Inicio la app
 CMD app.py
