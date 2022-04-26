@@ -38,7 +38,7 @@ ARQUITECTURA:
 Todo el proyecto se desarrollo en python3.
 Para la API-REST se trabajó con el módulo FLASK, ver app.py, está todo comentado. 
 
-Para la DB elejí trabajar con SQLite dado que cubre la necesidad y la simplicidad para trabarla. 
+Para la DB elegí trabajar con SQLite dado que cubre la necesidad y la simplicidad para trabarla. 
 
 Toda la solución fue dockerizada, en un único container, y deployada en la plataforma Heroku. Está onnline para ser testeada. En este respositorio se encuentra el DockerFile correspondiente y además un archivo Procfile necesario para el deploy del container sobre Heroku.
 
